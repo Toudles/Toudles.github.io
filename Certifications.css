@@ -1,0 +1,70 @@
+
+/* Background color*/
+html{
+    box-sizing: border-box;
+    height: 230%;
+}
+
+/* coloring */
+body{
+    /* can use any type of colors i want */
+    /* gradient tilted 320 degrees, and then our colors */
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    /* flex aligns columns/rows with auto width and height */
+
+}
+
+
+/* Description box for all pages*/
+.Description{
+    backdrop-filter: blur(5.5px);
+    /* webkit bd filter allows us to apply graphical effects such as
+    blurring or color shifting BEHIND our element (so working on background)*/
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #00ab55;
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255,0.34);
+    flex-basis: 400px;
+    height: 215px;
+    padding: 20px 35px;
+}
+
+/* Certificate stuff*/
+/* Python Certificate Hover*/
+.CertificatePython {
+    position: relative;
+}
+
+.CertificatePython:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("PythonCertificate.jpeg") no-repeat;
+    background-size: 250px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    width: 300px; /* Adjust the size as needed */
+    top: 90px; /* Adjust the position as needed */
+    left: -30px; /* Adjust the position as needed */
+}
+
+/* Java Certificate Hover*/
+.CertificateJava {
+    position: relative;
+}
+
+/* Maybe add hightlihgt when hovering over the different texts*/
+.CertificateJava:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url("javacertificate.jpeg") no-repeat;
+    background-size: 250px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    width: 300px; /* Adjust the size as needed */
+    top: 75px; /* Adjust the position as needed */
+    left: -30px; /* Adjust the position as needed */
+}
