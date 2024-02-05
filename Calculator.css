@@ -33,38 +33,30 @@ body{
     padding: 20px 35px;
 }
 
-/* Certificate stuff*/
-/* Python Certificate Hover*/
-.CertificatePython {
+
+.Calculator {
     position: relative;
 }
 
-.CertificatePython:hover:after {
+.CalculatorDefault {
     content: "";
     display: block;
     position: absolute;
-    background: url("PythonCertificate.jpeg") no-repeat;
+    background: url("CalculatorDefault.png") no-repeat;
     background-size: 250px; /* Adjust the size as needed */
     height: 300px; /* Adjust the size as needed */
     width: 300px; /* Adjust the size as needed */
-    top: 90px; /* Adjust the position as needed */
+    top: 280px; /* Adjust the position as needed */
     left: -30px; /* Adjust the position as needed */
 }
-
-/* Java Certificate Hover*/
-.CertificateJava {
-    position: relative;
-}
-
-/* Maybe add hightlihgt when hovering over the different texts*/
-.CertificateJava:hover:after {
+.CalculatorValues {
     content: "";
     display: block;
     position: absolute;
-    background: url("javacertificate.jpeg") no-repeat;
+    background: url("CalculatorValues.png") no-repeat;
     background-size: 250px; /* Adjust the size as needed */
     height: 300px; /* Adjust the size as needed */
     width: 300px; /* Adjust the size as needed */
-    top: 75px; /* Adjust the position as needed */
-    left: -30px; /* Adjust the position as needed */
+    top: 280px; /* Adjust the position as needed */
+    left: 250px; /* Adjust the position as needed */
 }
